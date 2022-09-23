@@ -47,14 +47,13 @@ INSERT INTO meta3.meta_class (class_id,class_name,container_class_id,class_typnm
 	 (1300,'메세지코드-언어',1000,'Object'),
 	 (1301,'메세지코드-구분',1000,'Object'),
 	 (1302,'메세지코드-유형',1000,'Object'),
-	 (1303,'메세지코드-채번',1000,'Object'),
 	 (1304,'보안등급관리',1000,'Object'),
 	 (1305,'DB구문관리',1000,'Object'),
 	 (1374,'대역별구분',1000,'Object'),
 	 (1097,'코드불일치구분',1000,'Object'),
-	 (1020,'정합성체크DB구분',1000,'Object');
+	 (1020,'정합성체크DB구분',1000,'Object'),
+	 (1098,'코드비교대상구분',1000,'Object');
 INSERT INTO meta3.meta_class (class_id,class_name,container_class_id,class_typnm) VALUES
-	 (1098,'코드비교대상구분',1000,'Object'),
 	 (3001,'테이블표준불일치내용',1000,'Object'),
 	 (3002,'비표준구분',1000,'Object'),
 	 (3003,'비표준용어-데이터타입',1000,'Object'),
@@ -63,9 +62,9 @@ INSERT INTO meta3.meta_class (class_id,class_name,container_class_id,class_typnm
 	 (1082,'스토리지버퍼POOL',1000,'Object'),
 	 (1083,'ByteUnit',1000,'Object'),
 	 (1084,'FlashCache',1000,'Object'),
-	 (1085,'파티션종류',1000,'Object');
+	 (1085,'파티션종류',1000,'Object'),
+	 (1086,'파티션인덱스종류',1000,'Object');
 INSERT INTO meta3.meta_class (class_id,class_name,container_class_id,class_typnm) VALUES
-	 (1086,'파티션인덱스종류',1000,'Object'),
 	 (1070,'주기코드(보관주기,삭제주기등)',1000,'Object'),
 	 (1306,'개인정보변환대상_변환규칙',1000,'Object'),
 	 (1307,'보안정책명',1000,'Object'),
@@ -74,10 +73,27 @@ INSERT INTO meta3.meta_class (class_id,class_name,container_class_id,class_typnm
 	 (2100,'배치경고수신자목록',1000,'Object'),
 	 (1073,'증가주기',1000,'Object'),
 	 (1074,'삭제주기',1000,'Object'),
-	 (1075,'갱신주기',1000,'Object');
+	 (1075,'갱신주기',1000,'Object'),
+	 (8001,'API_인증키',1000,'Object');
 INSERT INTO meta3.meta_class (class_id,class_name,container_class_id,class_typnm) VALUES
-	 (8001,'API_인증키',1000,'Object'),
 	 (7100,'사용자 동기화(파일) 메타항목ID',1000,'Object'),
 	 (3100,'사용자 동기화(파일) 파일인코딩',1000,'Object'),
 	 (1111,'통합검색유형',1000,'Object'),
-	 (1660,'로그이력구분',1000,'Object');
+	 (1660,'로그이력구분',1000,'Object'),
+	 (1303,'Message Code get No',1000,'Object'),
+	 (1818,'모델-APP업무구분',1000,'Object'),
+	 (1827,'보존처리 방법',1000,'Object'),
+	 (1701,'FC17',1000,'Object'),
+	 (123456789,'SouthGanz',1000,'Object'),
+	 (1122342,'SouthSide',1000,'Object');
+INSERT INTO meta3.meta_class (class_id,class_name,container_class_id,class_typnm) VALUES
+	 (12345678,'test 1->10',1000,'Object'),
+	 (1234567890,'abc',1000,'Object'),
+	 (123,'***',1000,'Object'),
+	 (1010101010,'xxx-yyy-zzz',1000,'Object'),
+	 (101010101,'xxxyyyzzz',1000,'Object'),
+	 (2020202020,'trangtrang',1000,'Object'),
+	 (1212121212,'thuythuy',1000,'Object'),
+	 (505050505,'jskhfjksdhfjdskhfjkdshfjskhflkjshfsjhfksjhfjskhfjksjskhfjksdhfjdskhfjkdshfjskhflkjshfsjhfksjhfjskhfj',1000,'Object'),
+	 (827492427,'aaabbbccc',1000,'Object'),
+	 (1803,'시스템구분',1000,'Object');
